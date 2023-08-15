@@ -65,6 +65,7 @@ export default function App() {
     <div className="app">
       <div className="sidebar">
         <FriendsList
+          friends={friends}
           selectedFriend={selectedFriend}
           onSelection={handleSelection}
         />
